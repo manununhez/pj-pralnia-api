@@ -20,15 +20,15 @@ const uploadAttributes = (req, res) => {
         });
     }
 
-    if (Object.keys(req.files.stores).length > 2) {
+    if (Object.keys(req.files.attributes).length > 2) {
         return res.status(500).send({
             status: false,
             message: 'Max files to upload: 2'
         });
     }
 
-    for (let key of Object.keys(req.files.stores)) {
-        let store = req.files.stores[key];
+    for (let key of Object.keys(req.files.attributes)) {
+        let store = req.files.attributes[key];
 
         if (store.mimetype !== 'text/csv') {
             return res.status(500).send({
@@ -62,8 +62,8 @@ const uploadAttributes = (req, res) => {
 
 
     //Upload new files
-    for (let key of Object.keys(req.files.stores)) {
-        let store = req.files.stores[key];
+    for (let key of Object.keys(req.files.attributes)) {
+        let store = req.files.attributes[key];
 
         if (store.mimetype !== 'text/csv') {
             return res.status(500).send({
@@ -77,9 +77,9 @@ const uploadAttributes = (req, res) => {
     let data = [];
 
     //loop all files
-    for (let key of Object.keys(req.files.stores)) {
-        // _.forEach(_.keysIn(req.files.stores), (key) => {
-        let store = req.files.stores[key];
+    for (let key of Object.keys(req.files.attributes)) {
+        // _.forEach(_.keysIn(req.files.attributes), (key) => {
+        let store = req.files.attributes[key];
 
         //move photo to uploads directory
         store.mv(CSV_UPLOAD_FILES_PATH + store.name);
