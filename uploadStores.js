@@ -1,5 +1,5 @@
 const fs = require('fs');
-const task = require('./csv-to-json')
+const task = require('./csv-to-json-stores')
 const dotenv = require('dotenv');
 dotenv.config();
 

@@ -7,10 +7,14 @@ var compression = require('compression');
 const cors = require('cors')
 const fileUpload = require('express-fileupload');
 
-const fromFile = require('./readFile')
+const readStores = require('./readStores')
+const readAttributes = require('./readAttributes')
+
 const db = require('./queries')
-const task = require('./csv-to-json')
-const upload = require('./uploadFile')
+const store = require('./csv-to-json-stores')
+const multiAttribute = require('./csv-to-json-attribute')
+const uploadStore = require('./uploadStores')
+const uploadAttributes = require('./uploadAttributes')
 
 dotenv.config();
 
@@ -58,15 +62,25 @@ app.get('/survey-result/:type/:userId', db.getPSFormResultsPerUser)
 app.get('/demographic-result/:type/:userId', db.getUserFormResultsPerUser)
 app.get('/memory-result/:type/:userId', db.getMemoryTaskResultPerUser)
 
-app.get('/convert-short-stores', task.convertShortStores)
-app.get('/convert-long-stores', task.convertLongStores)
+app.get('/convert-short-stores', store.convertShortStores)
+app.get('/convert-long-stores', store.convertLongStores)
 
-app.get('/stores-long', fromFile.getLongStores);
-app.get('/stores-short', fromFile.getShortStores);
+app.get('/convert-multi-attribute', multiAttribute.convertMultiAttribute)
+app.get('/convert-multi-attribute-demo', multiAttribute.convertMultiAttributeDemo)
+
+app.get('/stores-long', readStores.getLongStores);
+app.get('/stores-short', readStores.getShortStores);
+
+app.get('/input-all', readAttributes.getAttributes);
+app.get('/input-all-demo', readAttributes.getAttributesDemo);
 
 app.post('/upload-stores', function (req, res) {
     req.setTimeout(500000);
-    upload.uploadStores(req, res);
+    uploadStore.uploadStores(req, res);
+});
+app.post('/upload-attributes', function (req, res) {
+    req.setTimeout(500000);
+    uploadAttributes.uploadAttributes(req, res);
 });
 /**
  * SAVE DATA
