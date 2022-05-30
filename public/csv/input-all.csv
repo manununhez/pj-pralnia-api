@@ -1,0 +1,384 @@
+32,A3,0,0,1,klasa energetyczna,A+,A+,A++,3,YES
+32,A5,1,0,0,zużycie wody,40,50,50,3,YES
+32,A4,0,1,1,poziom hałasu,50,45,45,3,YES
+32,A6,0,1,0,program szybki,brak,jest,brak,3,YES
+32,A2,1,1,1,pojemność bębna,10,10,10,3,YES
+32,A1,1,0,1,max prędkość wirowania,1400,1200,1400,3,YES
+39,A3,0,0,1,klasa energetyczna,A,A,A++,1,YES
+39,A5,1,1,0,zużycie wody,45,45,65,1,YES
+39,A4,1,0,1,poziom hałasu,60,70,60,1,YES
+39,A6,1,0,0,program szybki,jest,brak,brak,1,YES
+39,A2,0,0,0,pojemność bębna,4,4,4,1,YES
+39,A1,0,1,0,max prędkość wirowania,1000,1400,1000,1,YES
+16,A3,0,0,1,klasa energetyczna,A,A,A++,3,YES
+16,A5,1,0,0,zużycie wody,45,65,65,3,YES
+16,A4,0,1,1,poziom hałasu,70,60,60,3,YES
+16,A6,0,1,0,program szybki,brak,jest,brak,3,YES
+16,A2,1,1,1,pojemność bębna,8,8,8,3,YES
+16,A1,1,0,1,max prędkość wirowania,1400,1000,1400,3,YES
+22,A3,0,1,1,klasa energetyczna,A+,A+++,A+++,3,YES
+22,A5,0,0,0,zużycie wody,50,50,50,3,YES
+22,A4,0,0,1,poziom hałasu,50,50,40,3,YES
+22,A6,0,0,0,program szybki,brak,brak,brak,3,YES
+22,A2,0,0,0,pojemność bębna,8,8,8,3,YES
+22,A1,1,0,1,max prędkość wirowania,1600,1200,1600,3,YES
+47,A3,1,0,0,klasa energetyczna,A+,A,A,2,YES
+47,A5,0,1,0,zużycie wody,65,55,65,2,YES
+47,A4,0,1,1,poziom hałasu,70,65,65,2,YES
+47,A6,1,0,1,program szybki,jest,brak,jest,2,YES
+47,A2,0,1,1,pojemność bębna,4,6,6,2,YES
+47,A1,1,0,1,max prędkość wirowania,1200,1000,1200,2,YES
+3,A3,0,1,0,klasa energetyczna,A,A+,A,2,YES
+3,A5,0,1,0,zużycie wody,65,55,65,2,YES
+3,A4,0,0,0,poziom hałasu,70,70,70,2,YES
+3,A6,1,1,0,program szybki,jest,jest,brak,2,YES
+3,A2,0,0,0,pojemność bębna,4,4,4,2,YES
+3,A1,0,0,0,max prędkość wirowania,1000,1000,1000,2,YES
+15,A3,0,0,0,klasa energetyczna,A,A,A,2,YES
+15,A5,1,1,0,zużycie wody,45,45,65,2,YES
+15,A4,0,1,0,poziom hałasu,70,60,70,2,YES
+15,A6,0,1,0,program szybki,brak,jest,brak,2,YES
+15,A2,0,1,1,pojemność bębna,4,8,8,2,YES
+15,A1,0,0,1,max prędkość wirowania,1000,1000,1400,2,YES
+46,A3,0,0,0,klasa energetyczna,A,A,A,1,YES
+46,A5,0,1,0,zużycie wody,65,55,65,1,YES
+46,A4,1,0,0,poziom hałasu,65,70,70,1,YES
+46,A6,1,0,1,program szybki,jest,brak,jest,1,YES
+46,A2,0,0,1,pojemność bębna,4,4,6,1,YES
+46,A1,0,0,1,max prędkość wirowania,1000,1000,1200,1,YES
+28,A3,0,0,1,klasa energetyczna,A+,A+,A++,3,YES
+28,A5,0,0,0,zużycie wody,50,50,50,3,YES
+28,A4,0,0,1,poziom hałasu,50,50,45,3,YES
+28,A6,1,0,0,program szybki,jest,brak,brak,3,YES
+28,A2,0,0,0,pojemność bębna,8,8,8,3,YES
+28,A1,0,1,0,max prędkość wirowania,1200,1400,1200,3,YES
+50,A3,1,0,0,klasa energetyczna,A++,A+,A+,3,YES
+50,A5,0,0,1,zużycie wody,50,50,40,3,YES
+50,A4,0,0,0,poziom hałasu,50,50,50,3,YES
+50,A6,0,1,0,program szybki,brak,jest,brak,3,YES
+50,A2,0,0,1,pojemność bębna,8,8,10,3,YES
+50,A1,0,0,0,max prędkość wirowania,1200,1200,1200,3,YES
+38,A3,1,1,1,klasa energetyczna,A++,A++,A++,3,YES
+38,A5,1,0,0,zużycie wody,45,65,65,3,YES
+38,A4,0,1,1,poziom hałasu,70,60,60,3,YES
+38,A6,0,0,1,program szybki,brak,brak,jest,3,YES
+38,A2,0,0,1,pojemność bębna,4,4,8,3,YES
+38,A1,0,0,0,max prędkość wirowania,1000,1000,1000,3,YES
+5,A3,0,0,0,klasa energetyczna,A,A,A,2,YES
+5,A5,0,0,0,zużycie wody,65,65,65,2,YES
+5,A4,0,1,0,poziom hałasu,70,65,70,2,YES
+5,A6,0,0,1,program szybki,brak,brak,jest,2,YES
+5,A2,1,0,0,pojemność bębna,6,4,4,2,YES
+5,A1,0,1,0,max prędkość wirowania,1000,1200,1000,2,YES
+52,A3,0,0,0,klasa energetyczna,A+,A+,A+,1,YES
+52,A5,0,0,1,zużycie wody,50,50,40,1,YES
+52,A4,1,0,0,poziom hałasu,45,50,50,1,YES
+52,A6,1,0,0,program szybki,jest,brak,brak,1,YES
+52,A2,0,0,0,pojemność bębna,8,8,8,1,YES
+52,A1,0,1,0,max prędkość wirowania,1200,1400,1200,1,YES
+31,A3,0,0,0,klasa energetyczna,A+,A+,A+,2,YES
+31,A5,1,1,0,zużycie wody,40,40,50,2,YES
+31,A4,0,1,0,poziom hałasu,50,45,50,2,YES
+31,A6,0,1,0,program szybki,brak,jest,brak,2,YES
+31,A2,0,1,1,pojemność bębna,8,10,10,2,YES
+31,A1,0,0,1,max prędkość wirowania,1200,1200,1400,2,YES
+59,A3,0,1,0,klasa energetyczna,A+,A+++,A+,1,YES
+59,A5,1,0,1,zużycie wody,30,50,30,1,YES
+59,A4,1,0,0,poziom hałasu,40,50,50,1,YES
+59,A6,1,0,1,program szybki,jest,brak,jest,1,YES
+59,A2,0,0,1,pojemność bębna,8,8,12,1,YES
+59,A1,0,0,1,max prędkość wirowania,1200,1200,1600,1,YES
+44,A3,0,0,0,klasa energetyczna,A,A,A,2,YES
+44,A5,0,0,1,zużycie wody,65,65,45,2,YES
+44,A4,0,1,0,poziom hałasu,70,60,70,2,YES
+44,A6,1,1,0,program szybki,jest,jest,brak,2,YES
+44,A2,1,0,0,pojemność bębna,8,4,4,2,YES
+44,A1,1,0,1,max prędkość wirowania,1400,1000,1400,2,YES
+10,A3,1,1,0,klasa energetyczna,A++,A++,A,1,YES
+10,A5,0,0,0,zużycie wody,65,65,65,1,YES
+10,A4,1,0,0,poziom hałasu,60,70,70,1,YES
+10,A6,0,0,0,program szybki,brak,brak,brak,1,YES
+10,A2,0,0,0,pojemność bębna,4,4,4,1,YES
+10,A1,0,0,0,max prędkość wirowania,1000,1000,1000,1,YES
+53,A3,1,0,0,klasa energetyczna,A+++,A+,A+,2,YES
+53,A5,0,1,0,zużycie wody,50,30,50,2,YES
+53,A4,1,1,0,poziom hałasu,40,40,50,2,YES
+53,A6,0,1,0,program szybki,brak,jest,brak,2,YES
+53,A2,0,0,1,pojemność bębna,8,8,12,2,YES
+53,A1,0,0,1,max prędkość wirowania,1200,1200,1600,2,YES
+49,A3,0,0,0,klasa energetyczna,A+,A+,A+,1,YES
+49,A5,0,0,0,zużycie wody,50,50,50,1,YES
+49,A4,0,0,1,poziom hałasu,50,50,40,1,YES
+49,A6,1,0,0,program szybki,jest,brak,brak,1,YES
+49,A2,1,0,0,pojemność bębna,12,8,8,1,YES
+49,A1,0,1,0,max prędkość wirowania,1200,1600,1200,1,YES
+43,A3,0,1,0,klasa energetyczna,A,A++,A,1,YES
+43,A5,1,0,1,zużycie wody,45,65,45,1,YES
+43,A4,1,0,0,poziom hałasu,60,70,70,1,YES
+43,A6,1,0,1,program szybki,jest,brak,jest,1,YES
+43,A2,0,0,1,pojemność bębna,4,4,8,1,YES
+43,A1,0,0,1,max prędkość wirowania,1000,1000,1400,1,YES
+34,A3,1,0,0,klasa energetyczna,A+,A,A,3,YES
+34,A5,0,0,1,zużycie wody,65,65,55,3,YES
+34,A4,0,0,0,poziom hałasu,70,70,70,3,YES
+34,A6,0,1,0,program szybki,brak,jest,brak,3,YES
+34,A2,0,0,1,pojemność bębna,4,4,6,3,YES
+34,A1,0,0,0,max prędkość wirowania,1000,1000,1000,3,YES
+9,A3,1,1,0,klasa energetyczna,A++,A++,A,1,YES
+9,A5,1,0,1,zużycie wody,45,65,45,1,YES
+9,A4,1,0,0,poziom hałasu,60,70,70,1,YES
+9,A6,1,0,0,program szybki,jest,brak,brak,1,YES
+9,A2,0,0,0,pojemność bębna,4,4,4,1,YES
+9,A1,0,1,1,max prędkość wirowania,1000,1400,1400,1,YES
+19,A3,0,1,0,klasa energetyczna,A+,A+++,A+,2,YES
+19,A5,0,1,0,zużycie wody,50,30,50,2,YES
+19,A4,0,0,0,poziom hałasu,50,50,50,2,YES
+19,A6,1,1,0,program szybki,jest,jest,brak,2,YES
+19,A2,0,0,0,pojemność bębna,8,8,8,2,YES
+19,A1,0,0,0,max prędkość wirowania,1200,1200,1200,2,YES
+21,A3,0,0,0,klasa energetyczna,A+,A+,A+,2,YES
+21,A5,0,0,0,zużycie wody,50,50,50,2,YES
+21,A4,0,1,0,poziom hałasu,50,40,50,2,YES
+21,A6,0,0,1,program szybki,brak,brak,jest,2,YES
+21,A2,1,0,0,pojemność bębna,12,8,8,2,YES
+21,A1,0,1,0,max prędkość wirowania,1200,1600,1200,2,YES
+61,A3,1,0,0,klasa energetyczna,A+++,A+,A+,3,YES
+61,A5,0,1,1,zużycie wody,50,30,30,3,YES
+61,A4,0,0,1,poziom hałasu,50,50,40,3,YES
+61,A6,0,1,1,program szybki,brak,jest,jest,3,YES
+61,A2,1,1,0,pojemność bębna,12,12,8,3,YES
+61,A1,1,1,0,max prędkość wirowania,1600,1600,1200,3,YES
+6,A3,0,1,1,klasa energetyczna,A,A+,A+,3,YES
+6,A5,0,0,0,zużycie wody,65,65,65,3,YES
+6,A4,0,0,1,poziom hałasu,70,70,65,3,YES
+6,A6,0,0,0,program szybki,brak,brak,brak,3,YES
+6,A2,0,0,0,pojemność bębna,4,4,4,3,YES
+6,A1,1,0,1,max prędkość wirowania,1200,1000,1200,3,YES
+1,A3,1,0,0,klasa energetyczna,A+,A,A,1,YES
+1,A5,0,0,0,zużycie wody,65,65,65,1,YES
+1,A4,1,0,0,poziom hałasu,65,70,70,1,YES
+1,A6,0,1,0,program szybki,brak,jest,brak,1,YES
+1,A2,0,0,0,pojemność bębna,4,4,4,1,YES
+1,A1,0,0,1,max prędkość wirowania,1000,1000,1200,1,YES
+62,A3,0,0,0,klasa energetyczna,A+,A+,A+,1,YES
+62,A5,0,1,0,zużycie wody,50,40,50,1,YES
+62,A4,1,0,0,poziom hałasu,45,50,50,1,YES
+62,A6,1,0,1,program szybki,jest,brak,jest,1,YES
+62,A2,0,0,1,pojemność bębna,8,8,10,1,YES
+62,A1,0,0,1,max prędkość wirowania,1200,1200,1400,1,YES
+60,A3,0,0,0,klasa energetyczna,A+,A+,A+,2,YES
+60,A5,0,0,1,zużycie wody,50,50,40,2,YES
+60,A4,0,1,0,poziom hałasu,50,45,50,2,YES
+60,A6,1,1,0,program szybki,jest,jest,brak,2,YES
+60,A2,1,0,0,pojemność bębna,10,8,8,2,YES
+60,A1,1,0,1,max prędkość wirowania,1400,1200,1400,2,YES
+35,A3,0,0,0,klasa energetyczna,A,A,A,1,YES
+35,A5,0,1,0,zużycie wody,65,55,65,1,YES
+35,A4,1,0,1,poziom hałasu,65,70,65,1,YES
+35,A6,1,0,0,program szybki,jest,brak,brak,1,YES
+35,A2,0,0,0,pojemność bębna,4,4,4,1,YES
+35,A1,1,0,1,max prędkość wirowania,1200,1000,1200,1,YES
+23,A3,0,1,0,klasa energetyczna,A+,A+++,A+,2,YES
+23,A5,1,1,1,zużycie wody,30,30,30,2,YES
+23,A4,1,1,1,poziom hałasu,40,40,40,2,YES
+23,A6,0,0,0,program szybki,brak,brak,brak,2,YES
+23,A2,0,1,0,pojemność bębna,8,12,8,2,YES
+23,A1,0,0,1,max prędkość wirowania,1200,1200,1600,2,YES
+18,A3,0,0,1,klasa energetyczna,A+,A+,A+++,3,YES
+18,A5,1,1,1,zużycie wody,30,30,30,3,YES
+18,A4,0,0,0,poziom hałasu,50,50,50,3,YES
+18,A6,0,0,0,program szybki,brak,brak,brak,3,YES
+18,A2,0,0,1,pojemność bębna,8,8,12,3,YES
+18,A1,0,1,1,max prędkość wirowania,1200,1600,1600,3,YES
+29,A3,0,0,0,klasa energetyczna,A+,A+,A+,2,NO
+29,A5,0,1,0,zużycie wody,50,40,50,2,NO
+29,A4,0,0,0,poziom hałasu,50,50,50,2,NO
+29,A6,0,1,1,program szybki,brak,jest,jest,2,NO
+29,A2,0,0,0,pojemność bębna,8,8,8,2,NO
+29,A1,0,0,0,max prędkość wirowania,1200,1200,1200,2,NO
+63,A3,1,0,0,klasa energetyczna,A+++,A+,A+,2,NO
+63,A5,0,1,0,zużycie wody,50,30,50,2,NO
+63,A4,0,1,1,poziom hałasu,50,40,40,2,NO
+63,A6,1,0,1,program szybki,jest,brak,jest,2,NO
+63,A2,0,1,1,pojemność bębna,8,12,12,2,NO
+63,A1,1,0,1,max prędkość wirowania,1600,1200,1600,2,NO
+8,A3,1,0,0,klasa energetyczna,A+,A,A,1,NO
+8,A5,0,0,0,zużycie wody,65,65,65,1,NO
+8,A4,0,1,1,poziom hałasu,70,65,65,1,NO
+8,A6,0,0,0,program szybki,brak,brak,brak,1,NO
+8,A2,1,0,1,pojemność bębna,6,4,6,1,NO
+8,A1,1,1,0,max prędkość wirowania,1200,1200,1000,1,NO
+33,A3,0,0,0,klasa energetyczna,A,A,A,1,NO
+33,A5,0,0,0,zużycie wody,65,65,65,1,NO
+33,A4,0,0,1,poziom hałasu,70,70,65,1,NO
+33,A6,1,0,0,program szybki,jest,brak,brak,1,NO
+33,A2,1,0,0,pojemność bębna,6,4,4,1,NO
+33,A1,0,1,0,max prędkość wirowania,1000,1200,1000,1,NO
+42,A3,0,0,0,klasa energetyczna,A,A,A,3,NO
+42,A5,0,1,0,zużycie wody,65,45,65,3,NO
+42,A4,0,0,1,poziom hałasu,70,70,60,3,NO
+42,A6,1,0,1,program szybki,jest,brak,jest,3,NO
+42,A2,1,0,0,pojemność bębna,8,4,4,3,NO
+42,A1,1,1,0,max prędkość wirowania,1400,1400,1000,3,NO
+20,A3,0,0,0,klasa energetyczna,A+,A+,A+,3,NO
+20,A5,0,0,0,zużycie wody,50,50,50,3,NO
+20,A4,0,0,1,poziom hałasu,50,50,40,3,NO
+20,A6,0,0,0,program szybki,brak,brak,brak,3,NO
+20,A2,0,1,1,pojemność bębna,8,12,12,3,NO
+20,A1,1,0,1,max prędkość wirowania,1600,1200,1600,3,NO
+37,A3,1,0,0,klasa energetyczna,A++,A,A,2,NO
+37,A5,0,1,0,zużycie wody,65,45,65,2,NO
+37,A4,0,1,1,poziom hałasu,70,60,60,2,NO
+37,A6,1,0,0,program szybki,jest,brak,brak,2,NO
+37,A2,0,0,0,pojemność bębna,4,4,4,2,NO
+37,A1,0,1,1,max prędkość wirowania,1000,1400,1400,2,NO
+64,A3,0,0,0,klasa energetyczna,A+,A+,A+,3,NO
+64,A5,0,1,0,zużycie wody,50,40,50,3,NO
+64,A4,0,0,1,poziom hałasu,50,50,45,3,NO
+64,A6,1,0,1,program szybki,jest,brak,jest,3,NO
+64,A2,1,0,0,pojemność bębna,10,8,8,3,NO
+64,A1,1,1,0,max prędkość wirowania,1400,1400,1200,3,NO
+25,A3,1,1,0,klasa energetyczna,A++,A++,A+,1,NO
+25,A5,1,0,1,zużycie wody,40,50,40,1,NO
+25,A4,1,0,0,poziom hałasu,45,50,50,1,NO
+25,A6,1,0,0,program szybki,jest,brak,brak,1,NO
+25,A2,0,0,0,pojemność bębna,8,8,8,1,NO
+25,A1,0,1,1,max prędkość wirowania,1200,1400,1400,1,NO
+17,A3,1,0,0,klasa energetyczna,A+++,A+,A+,1,NO
+17,A5,0,0,0,zużycie wody,50,50,50,1,NO
+17,A4,1,0,0,poziom hałasu,40,50,50,1,NO
+17,A6,0,1,0,program szybki,brak,jest,brak,1,NO
+17,A2,0,0,0,pojemność bębna,8,8,8,1,NO
+17,A1,0,0,1,max prędkość wirowania,1200,1200,1600,1,NO
+4,A3,0,0,0,klasa energetyczna,A,A,A,3,NO
+4,A5,0,0,0,zużycie wody,65,65,65,3,NO
+4,A4,0,0,1,poziom hałasu,70,70,65,3,NO
+4,A6,0,0,0,program szybki,brak,brak,brak,3,NO
+4,A2,0,1,1,pojemność bębna,4,6,6,3,NO
+4,A1,1,0,1,max prędkość wirowania,1200,1000,1200,3,NO
+58,A3,0,0,0,klasa energetyczna,A+,A+,A+,3,NO
+58,A5,0,1,0,zużycie wody,50,40,50,3,NO
+58,A4,0,0,1,poziom hałasu,50,50,45,3,NO
+58,A6,1,0,1,program szybki,jest,brak,jest,3,NO
+58,A2,1,0,0,pojemność bębna,10,8,8,3,NO
+58,A1,1,1,0,max prędkość wirowania,1400,1400,1200,3,NO
+36,A3,0,0,0,klasa energetyczna,A,A,A,1,NO
+36,A5,0,0,1,zużycie wody,65,65,55,1,NO
+36,A4,1,0,0,poziom hałasu,65,70,70,1,NO
+36,A6,1,0,0,program szybki,jest,brak,brak,1,NO
+36,A2,0,1,0,pojemność bębna,4,6,4,1,NO
+36,A1,0,0,0,max prędkość wirowania,1000,1000,1000,1,NO
+7,A3,0,1,0,klasa energetyczna,A,A+,A,2,NO
+7,A5,1,1,1,zużycie wody,55,55,55,2,NO
+7,A4,1,1,1,poziom hałasu,65,65,65,2,NO
+7,A6,0,0,0,program szybki,brak,brak,brak,2,NO
+7,A2,0,1,0,pojemność bębna,4,6,4,2,NO
+7,A1,0,0,1,max prędkość wirowania,1000,1000,1200,2,NO
+2,A3,0,0,1,klasa energetyczna,A,A,A+,3,NO
+2,A5,1,1,1,zużycie wody,55,55,55,3,NO
+2,A4,0,0,0,poziom hałasu,70,70,70,3,NO
+2,A6,0,0,0,program szybki,brak,brak,brak,3,NO
+2,A2,0,0,1,pojemność bębna,4,4,6,3,NO
+2,A1,0,1,1,max prędkość wirowania,1000,1200,1200,3,NO
+56,A3,0,0,0,klasa energetyczna,A+,A+,A+,2,NO
+56,A5,0,0,1,zużycie wody,50,50,40,2,NO
+56,A4,1,1,0,poziom hałasu,45,45,50,2,NO
+56,A6,0,1,0,program szybki,brak,jest,brak,2,NO
+56,A2,0,1,0,pojemność bębna,8,10,8,2,NO
+56,A1,1,0,0,max prędkość wirowania,1400,1200,1200,2,NO
+11,A3,0,0,1,klasa energetyczna,A,A,A++,3,NO
+11,A5,0,1,1,zużycie wody,65,45,45,3,NO
+11,A4,0,0,0,poziom hałasu,70,70,70,3,NO
+11,A6,0,0,0,program szybki,brak,brak,brak,3,NO
+11,A2,0,0,1,pojemność bębna,4,4,8,3,NO
+11,A1,0,0,0,max prędkość wirowania,1000,1000,1000,3,NO
+45,A3,1,0,0,klasa energetyczna,A+,A,A,3,NO
+45,A5,0,1,1,zużycie wody,65,55,55,3,NO
+45,A4,0,0,1,poziom hałasu,70,70,65,3,NO
+45,A6,0,1,1,program szybki,brak,jest,jest,3,NO
+45,A2,1,1,0,pojemność bębna,6,6,4,3,NO
+45,A1,1,1,0,max prędkość wirowania,1200,1200,1000,3,NO
+40,A3,0,0,0,klasa energetyczna,A,A,A,2,NO
+40,A5,0,0,1,zużycie wody,65,65,45,2,NO
+40,A4,0,1,0,poziom hałasu,70,60,70,2,NO
+40,A6,0,1,0,program szybki,brak,jest,brak,2,NO
+40,A2,1,1,0,pojemność bębna,8,8,4,2,NO
+40,A1,1,0,0,max prędkość wirowania,1400,1000,1000,2,NO
+54,A3,1,1,1,klasa energetyczna,A++,A++,A++,3,NO
+54,A5,1,0,0,zużycie wody,40,50,50,3,NO
+54,A4,0,0,1,poziom hałasu,50,50,45,3,NO
+54,A6,0,0,1,program szybki,brak,brak,jest,3,NO
+54,A2,0,0,0,pojemność bębna,8,8,8,3,NO
+54,A1,0,1,0,max prędkość wirowania,1200,1400,1200,3,NO
+27,A3,0,0,1,klasa energetyczna,A+,A+,A++,3,NO
+27,A5,0,1,1,zużycie wody,50,40,40,3,NO
+27,A4,0,0,0,poziom hałasu,50,50,50,3,NO
+27,A6,0,0,0,program szybki,brak,brak,brak,3,NO
+27,A2,0,0,1,pojemność bębna,8,8,10,3,NO
+27,A1,0,0,0,max prędkość wirowania,1200,1200,1200,3,NO
+51,A3,0,0,0,klasa energetyczna,A+,A+,A+,1,NO
+51,A5,0,1,0,zużycie wody,50,30,50,1,NO
+51,A4,1,0,0,poziom hałasu,40,50,50,1,NO
+51,A6,1,0,0,program szybki,jest,brak,brak,1,NO
+51,A2,0,0,1,pojemność bębna,8,8,12,1,NO
+51,A1,1,0,1,max prędkość wirowania,1600,1200,1600,1,NO
+13,A3,0,0,0,klasa energetyczna,A,A,A,2,NO
+13,A5,0,1,0,zużycie wody,65,45,65,2,NO
+13,A4,0,0,0,poziom hałasu,70,70,70,2,NO
+13,A6,0,1,1,program szybki,brak,jest,jest,2,NO
+13,A2,0,0,0,pojemność bębna,4,4,4,2,NO
+13,A1,0,0,0,max prędkość wirowania,1000,1000,1000,2,NO
+30,A3,0,0,0,klasa energetyczna,A+,A+,A+,3,NO
+30,A5,0,0,0,zużycie wody,50,50,50,3,NO
+30,A4,0,0,1,poziom hałasu,50,50,45,3,NO
+30,A6,0,0,1,program szybki,brak,brak,jest,3,NO
+30,A2,1,0,0,pojemność bębna,10,8,8,3,NO
+30,A1,1,0,1,max prędkość wirowania,1400,1200,1400,3,NO
+55,A3,0,0,1,klasa energetyczna,A+,A+,A+++,1,NO
+55,A5,1,0,0,zużycie wody,30,50,50,1,NO
+55,A4,1,0,1,poziom hałasu,40,50,40,1,NO
+55,A6,1,0,0,program szybki,jest,brak,brak,1,NO
+55,A2,0,1,0,pojemność bębna,8,12,8,1,NO
+55,A1,0,1,0,max prędkość wirowania,1200,1600,1200,1,NO
+14,A3,0,0,0,klasa energetyczna,A,A,A,3,NO
+14,A5,0,0,0,zużycie wody,65,65,65,3,NO
+14,A4,0,0,1,poziom hałasu,70,70,60,3,NO
+14,A6,0,0,1,program szybki,brak,brak,jest,3,NO
+14,A2,1,0,0,pojemność bębna,8,4,4,3,NO
+14,A1,1,0,1,max prędkość wirowania,1400,1000,1400,3,NO
+12,A3,0,0,1,klasa energetyczna,A,A,A++,3,NO
+12,A5,0,0,0,zużycie wody,65,65,65,3,NO
+12,A4,0,0,1,poziom hałasu,70,70,60,3,NO
+12,A6,1,0,0,program szybki,jest,brak,brak,3,NO
+12,A2,0,0,0,pojemność bębna,4,4,4,3,NO
+12,A1,0,1,0,max prędkość wirowania,1000,1400,1000,3,NO
+48,A3,0,0,0,klasa energetyczna,A,A,A,3,NO
+48,A5,0,1,0,zużycie wody,65,55,65,3,NO
+48,A4,0,0,1,poziom hałasu,70,70,65,3,NO
+48,A6,1,0,1,program szybki,jest,brak,jest,3,NO
+48,A2,1,0,0,pojemność bębna,6,4,4,3,NO
+48,A1,1,1,0,max prędkość wirowania,1200,1200,1000,3,NO
+24,A3,1,0,0,klasa energetyczna,A+++,A+,A+,1,NO
+24,A5,0,0,0,zużycie wody,50,50,50,1,NO
+24,A4,0,1,1,poziom hałasu,50,40,40,1,NO
+24,A6,0,0,0,program szybki,brak,brak,brak,1,NO
+24,A2,1,0,1,pojemność bębna,12,8,12,1,NO
+24,A1,1,1,0,max prędkość wirowania,1600,1600,1200,1,NO
+26,A3,1,1,0,klasa energetyczna,A++,A++,A+,1,NO
+26,A5,0,0,0,zużycie wody,50,50,50,1,NO
+26,A4,1,0,0,poziom hałasu,45,50,50,1,NO
+26,A6,0,0,0,program szybki,brak,brak,brak,1,NO
+26,A2,0,0,0,pojemność bębna,8,8,8,1,NO
+26,A1,0,0,0,max prędkość wirowania,1200,1200,1200,1,NO
+57,A3,1,0,0,klasa energetyczna,A+++,A+,A+,2,NO
+57,A5,0,1,0,zużycie wody,50,30,50,2,NO
+57,A4,0,0,0,poziom hałasu,50,50,50,2,NO
+57,A6,0,0,1,program szybki,brak,brak,jest,2,NO
+57,A2,0,1,1,pojemność bębna,8,12,12,2,NO
+57,A1,0,0,1,max prędkość wirowania,1200,1200,1600,2,NO
+41,A3,1,0,0,klasa energetyczna,A++,A,A,2,NO
+41,A5,0,1,0,zużycie wody,65,45,65,2,NO
+41,A4,0,0,0,poziom hałasu,70,70,70,2,NO
+41,A6,0,0,1,program szybki,brak,brak,jest,2,NO
+41,A2,0,1,1,pojemność bębna,4,8,8,2,NO
+41,A1,0,0,1,max prędkość wirowania,1000,1000,1400,2,NO

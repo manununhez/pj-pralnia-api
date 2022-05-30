@@ -57,7 +57,8 @@ const convertAttributes = (inputFilePath, outputFilePath) => {
             var nextElement = dataArray[i].split(",");
 
             if (nextElement[0] == firstElement[0]) {
-                result[resultCount].attributes.push({
+                console.log(result)
+		result[resultCount].attributes.push({
                     "id": nextElement[1],
                     "p1": parseInt(nextElement[2]),
                     "p2": parseInt(nextElement[3]),
@@ -74,7 +75,7 @@ const convertAttributes = (inputFilePath, outputFilePath) => {
                     "id": parseInt(nextElement[0]),
                     "correctAnswer": parseInt(nextElement[9]),
                     "showFeedback": (nextElement[10].trim() === "YES"),
-                    "attributes": {
+                    "attributes": [{
                         "id": nextElement[1],
                         "p1": parseInt(nextElement[2]),
                         "p2": parseInt(nextElement[3]),
@@ -83,7 +84,7 @@ const convertAttributes = (inputFilePath, outputFilePath) => {
                         "valueP1": nextElement[6],
                         "valueP2": nextElement[7],
                         "valueP3": nextElement[8]
-                    }
+                    }]
                 })
                 resultCount++
             }
