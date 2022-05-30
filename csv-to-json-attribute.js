@@ -57,8 +57,7 @@ const convertAttributes = (inputFilePath, outputFilePath) => {
             var nextElement = dataArray[i].split(",");
 
             if (nextElement[0] == firstElement[0]) {
-                console.log(result)
-		result[resultCount].attributes.push({
+                result[resultCount].attributes.push({
                     "id": nextElement[1],
                     "p1": parseInt(nextElement[2]),
                     "p2": parseInt(nextElement[3]),
