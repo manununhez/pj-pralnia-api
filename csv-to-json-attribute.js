@@ -38,7 +38,7 @@ const convertAttributes = (inputFilePath, outputFilePath) => {
             "id": parseInt(firstElement[0]),
             "correctAnswer": parseInt(firstElement[9]),
             "showFeedback": (firstElement[10].trim() === "YES"),
-            "showVisualStack": "NO",
+            "showVisualStack": false, //NO
             "attributes": [{
                 "id": firstElement[1],
                 "p1": parseInt(firstElement[2]),
@@ -75,7 +75,7 @@ const convertAttributes = (inputFilePath, outputFilePath) => {
                     "id": parseInt(nextElement[0]),
                     "correctAnswer": parseInt(nextElement[9]),
                     "showFeedback": (nextElement[10].trim() === "YES"),
-                    "showVisualStack": "NO",
+                    "showVisualStack": false, //NO
                     "attributes": [{
                         "id": nextElement[1],
                         "p1": parseInt(nextElement[2]),
