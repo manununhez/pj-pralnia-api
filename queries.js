@@ -470,6 +470,106 @@ const createUserLogTime = (request, response) => {
     })
 }
 
+const createUserAttributes = (request, response) => {
+    const data = request.body
+
+    const query = format('INSERT INTO results_user_attribute (user_id, questionID, questionNumber, selectedAnswer, isCorrectAnswer) VALUES %L Returning *', data)
+
+    // console.log(query)
+
+    pool.query(query, (error, results) => {
+        if (error) {
+            throw error
+        }
+        // console.log(`UserVisualPattern added  ${results.rowCount} rows`)
+        // console.log(`UserVisualPattern added  ${results.rows} rows`)
+        response.status(201).send(`UserAttributes added ${results.rowCount} rows`)
+    })
+}
+
+const createUserRatings = (request, response) => {
+    const data = request.body
+
+    const query = format('INSERT INTO results_user_rating (user_id, attribute_id, attribute_text, rating) VALUES %L Returning *', data)
+
+    // console.log(query)
+
+    pool.query(query, (error, results) => {
+        if (error) {
+            throw error
+        }
+        // console.log(`UserVisualPattern added  ${results.rowCount} rows`)
+        // console.log(`UserVisualPattern added  ${results.rows} rows`)
+        response.status(201).send(`UserRatings added ${results.rowCount} rows`)
+    })
+}
+
+const createUserPreferences = (request, response) => {
+    const data = request.body
+
+    const query = format('INSERT INTO results_user_preference (user_id, attribute_id, attribute_text, rating) VALUES %L Returning *', data)
+
+    // console.log(query)
+
+    pool.query(query, (error, results) => {
+        if (error) {
+            throw error
+        }
+        // console.log(`UserVisualPattern added  ${results.rowCount} rows`)
+        // console.log(`UserVisualPattern added  ${results.rows} rows`)
+        response.status(201).send(`UserPreferences added ${results.rowCount} rows`)
+    })
+}
+
+const createUserRatingPreferences = (request, response) => {
+    const data = request.body
+
+    const query = format('INSERT INTO results_user_rating_preference (user_id, attribute_id, attribute_text, rating) VALUES %L Returning *', data)
+
+    // console.log(query)
+
+    pool.query(query, (error, results) => {
+        if (error) {
+            throw error
+        }
+        // console.log(`UserVisualPattern added  ${results.rowCount} rows`)
+        // console.log(`UserVisualPattern added  ${results.rows} rows`)
+        response.status(201).send(`UserRatingPreferences added ${results.rowCount} rows`)
+    })
+}
+const createUserBrands = (request, response) => {
+    const data = request.body
+
+    const query = format('INSERT INTO results_user_brand (user_id, brand) VALUES %L Returning *', data)
+
+    // console.log(query)
+
+    pool.query(query, (error, results) => {
+        if (error) {
+            throw error
+        }
+        // console.log(`UserVisualPattern added  ${results.rowCount} rows`)
+        // console.log(`UserVisualPattern added  ${results.rows} rows`)
+        response.status(201).send(`UserBrands added ${results.rowCount} rows`)
+    })
+}
+const createUserInput = (request, response) => {
+    const data = request.body
+
+    const query = format('INSERT INTO results_user_input (user_id, input) VALUES %L Returning *', data)
+
+    // console.log(query)
+
+    pool.query(query, (error, results) => {
+        if (error) {
+            throw error
+        }
+        // console.log(`UserVisualPattern added  ${results.rowCount} rows`)
+        // console.log(`UserVisualPattern added  ${results.rows} rows`)
+        response.status(201).send(`UserInput added ${results.rowCount} rows`)
+    })
+}
+
 const createUserGeneraldata = (request, response) => {
     const data = request.body
 
@@ -509,5 +609,11 @@ module.exports = {
     createUserInfo,
     createUserLogTime,
     createUserGeneraldata,
-    createUserBargains
+    createUserBargains,
+    createUserAttributes,
+    createUserRatings,
+    createUserPreferences,
+    createUserRatingPreferences,
+    createUserBrands,
+    createUserInput
 }
