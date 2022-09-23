@@ -208,6 +208,166 @@ const getBargainsResultPerUser = (request, response) => {
     })
 }
 
+const getRatingPreferenceResultPerUser = (request, response) => {
+    const userId = request.params.userId
+    const resultsType = request.params.type
+    let tableName = ""
+    let fileName = ""
+
+    if (resultsType == "c") {
+        tableName = "view_rating_preference_results"
+        fileName = 'rating_preference_result' + userId + '.csv'
+    } else if (resultsType == "p") {
+        tableName = "view_rating_preference_partial_results"
+        fileName = 'rating_preference_partial_result_' + userId + '.csv'
+    } else return
+
+    pool.query('SELECT * FROM ' + tableName + ' WHERE user_id = $1', [userId], (error, results) => {
+        if (error) {
+            throw error
+        }
+
+        const jsonData = JSON.parse(JSON.stringify(results.rows));
+
+        response.header('Content-Type', 'text/csv');
+        response.attachment(fileName);
+        fastcsv
+            .write(jsonData, { headers: true })
+            .pipe(response)
+            .on("finish", function () {
+                console.log("Write to CSV completed successfully!");
+            });
+    })
+}
+
+const getRatingResultPerUser = (request, response) => {
+    const userId = request.params.userId
+    const resultsType = request.params.type
+    let tableName = ""
+    let fileName = ""
+
+    if (resultsType == "c") {
+        tableName = "view_rating_results"
+        fileName = 'rating_result_' + userId + '.csv'
+    } else if (resultsType == "p") {
+        tableName = "view_rating_partial_results"
+        fileName = 'rating_partial_result_' + userId + '.csv'
+    } else return
+
+    pool.query('SELECT * FROM ' + tableName + ' WHERE user_id = $1', [userId], (error, results) => {
+        if (error) {
+            throw error
+        }
+
+        const jsonData = JSON.parse(JSON.stringify(results.rows));
+
+        response.header('Content-Type', 'text/csv');
+        response.attachment(fileName);
+        fastcsv
+            .write(jsonData, { headers: true })
+            .pipe(response)
+            .on("finish", function () {
+                console.log("Write to CSV completed successfully!");
+            });
+    })
+}
+
+const getPreferenceResultPerUser = (request, response) => {
+    const userId = request.params.userId
+    const resultsType = request.params.type
+    let tableName = ""
+    let fileName = ""
+
+    if (resultsType == "c") {
+        tableName = "view_preference_results"
+        fileName = 'preference_result_' + userId + '.csv'
+    } else if (resultsType == "p") {
+        tableName = "view_preference_partial_results"
+        fileName = 'preference_partial_result_' + userId + '.csv'
+    } else return
+
+    pool.query('SELECT * FROM ' + tableName + ' WHERE user_id = $1', [userId], (error, results) => {
+        if (error) {
+            throw error
+        }
+
+        const jsonData = JSON.parse(JSON.stringify(results.rows));
+
+        response.header('Content-Type', 'text/csv');
+        response.attachment(fileName);
+        fastcsv
+            .write(jsonData, { headers: true })
+            .pipe(response)
+            .on("finish", function () {
+                console.log("Write to CSV completed successfully!");
+            });
+    })
+}
+
+const getBrandResultPerUser = (request, response) => {
+    const userId = request.params.userId
+    const resultsType = request.params.type
+    let tableName = ""
+    let fileName = ""
+
+    if (resultsType == "c") {
+        tableName = "view_brand_results"
+        fileName = 'brand_result_' + userId + '.csv'
+    } else if (resultsType == "p") {
+        tableName = "view_brand_partial_results"
+        fileName = 'brand_partial_result_' + userId + '.csv'
+    } else return
+
+    pool.query('SELECT * FROM ' + tableName + ' WHERE user_id = $1', [userId], (error, results) => {
+        if (error) {
+            throw error
+        }
+
+        const jsonData = JSON.parse(JSON.stringify(results.rows));
+
+        response.header('Content-Type', 'text/csv');
+        response.attachment(fileName);
+        fastcsv
+            .write(jsonData, { headers: true })
+            .pipe(response)
+            .on("finish", function () {
+                console.log("Write to CSV completed successfully!");
+            });
+    })
+}
+
+const getAttributesResultPerUser = (request, response) => {
+    const userId = request.params.userId
+    const resultsType = request.params.type
+    let tableName = ""
+    let fileName = ""
+
+    if (resultsType == "c") {
+        tableName = "view_attribute_results"
+        fileName = 'multiattribute_result_' + userId + '.csv'
+    } else if (resultsType == "p") {
+        tableName = "view_attribute_partial_results"
+        fileName = 'multiattribute_partial_result_' + userId + '.csv'
+    } else return
+
+    pool.query('SELECT * FROM ' + tableName + ' WHERE user_id = $1', [userId], (error, results) => {
+        if (error) {
+            throw error
+        }
+
+        const jsonData = JSON.parse(JSON.stringify(results.rows));
+
+        response.header('Content-Type', 'text/csv');
+        response.attachment(fileName);
+        fastcsv
+            .write(jsonData, { headers: true })
+            .pipe(response)
+            .on("finish", function () {
+                console.log("Write to CSV completed successfully!");
+            });
+    })
+}
+
 const getBargainsResultPerStore = (request, response) => {
     const resultsType = request.params.type
     let tableName = ""
@@ -282,6 +442,155 @@ const getPSFormResults = (request, response) => {
     } else if (resultsType == "p") {
         tableName = "view_psform_partial_results"
         fileName = 'survey_partial_result.csv'
+    } else return
+
+    pool.query('SELECT * FROM ' + tableName, (error, results) => {
+        if (error) {
+            throw error
+        }
+        const jsonData = JSON.parse(JSON.stringify(results.rows));
+
+        response.header('Content-Type', 'text/csv');
+        response.attachment(fileName);
+        fastcsv
+            .write(jsonData, { headers: true })
+            .pipe(response)
+            .on("finish", function () {
+                console.log("Write to CSV completed successfully!");
+            });
+    })
+}
+
+const getBrandResults = (request, response) => {
+    const resultsType = request.params.type
+    let tableName = ""
+    let fileName = ""
+
+    if (resultsType == "c") {
+        tableName = "view_brand_results"
+        fileName = 'brand_result.csv'
+    } else if (resultsType == "p") {
+        tableName = "view_brand_partial_results"
+        fileName = 'brand_partial_result.csv'
+    } else return
+
+    pool.query('SELECT * FROM ' + tableName, (error, results) => {
+        if (error) {
+            throw error
+        }
+        const jsonData = JSON.parse(JSON.stringify(results.rows));
+
+        response.header('Content-Type', 'text/csv');
+        response.attachment(fileName);
+        fastcsv
+            .write(jsonData, { headers: true })
+            .pipe(response)
+            .on("finish", function () {
+                console.log("Write to CSV completed successfully!");
+            });
+    })
+}
+const getRatingPreferenceResults = (request, response) => {
+    const resultsType = request.params.type
+    let tableName = ""
+    let fileName = ""
+
+    if (resultsType == "c") {
+        tableName = "view_rating_preference_results"
+        fileName = 'rating_preference_result.csv'
+    } else if (resultsType == "p") {
+        tableName = "view_rating_preference_partial_results"
+        fileName = 'rating_preference_partial_result.csv'
+    } else return
+
+    pool.query('SELECT * FROM ' + tableName, (error, results) => {
+        if (error) {
+            throw error
+        }
+        const jsonData = JSON.parse(JSON.stringify(results.rows));
+
+        response.header('Content-Type', 'text/csv');
+        response.attachment(fileName);
+        fastcsv
+            .write(jsonData, { headers: true })
+            .pipe(response)
+            .on("finish", function () {
+                console.log("Write to CSV completed successfully!");
+            });
+    })
+}
+
+const getRatingResults = (request, response) => {
+    const resultsType = request.params.type
+    let tableName = ""
+    let fileName = ""
+
+    if (resultsType == "c") {
+        tableName = "view_rating_results"
+        fileName = 'rating_result.csv'
+    } else if (resultsType == "p") {
+        tableName = "view_rating_partial_results"
+        fileName = 'rating_partial_result.csv'
+    } else return
+
+    pool.query('SELECT * FROM ' + tableName, (error, results) => {
+        if (error) {
+            throw error
+        }
+        const jsonData = JSON.parse(JSON.stringify(results.rows));
+
+        response.header('Content-Type', 'text/csv');
+        response.attachment(fileName);
+        fastcsv
+            .write(jsonData, { headers: true })
+            .pipe(response)
+            .on("finish", function () {
+                console.log("Write to CSV completed successfully!");
+            });
+    })
+}
+
+const getPreferenceResults = (request, response) => {
+    const resultsType = request.params.type
+    let tableName = ""
+    let fileName = ""
+
+    if (resultsType == "c") {
+        tableName = "view_preference_results"
+        fileName = 'preference_result.csv'
+    } else if (resultsType == "p") {
+        tableName = "view_preference_partial_results"
+        fileName = 'preference_partial_result.csv'
+    } else return
+
+    pool.query('SELECT * FROM ' + tableName, (error, results) => {
+        if (error) {
+            throw error
+        }
+        const jsonData = JSON.parse(JSON.stringify(results.rows));
+
+        response.header('Content-Type', 'text/csv');
+        response.attachment(fileName);
+        fastcsv
+            .write(jsonData, { headers: true })
+            .pipe(response)
+            .on("finish", function () {
+                console.log("Write to CSV completed successfully!");
+            });
+    })
+}
+
+const getAttributesResults = (request, response) => {
+    const resultsType = request.params.type
+    let tableName = ""
+    let fileName = ""
+
+    if (resultsType == "c") {
+        tableName = "view_attribute_results"
+        fileName = 'multiattribute_result.csv'
+    } else if (resultsType == "p") {
+        tableName = "view_attribute_partial_results"
+        fileName = 'multiattribute_partial_result.csv'
     } else return
 
     pool.query('SELECT * FROM ' + tableName, (error, results) => {
@@ -595,14 +904,24 @@ module.exports = {
     getAppTextData,
     getMemoryTaskResult,
     getBargainsResult,
+    getRatingResultPerUser,
     getBargainsResultPerStore,
     getPSFormResults,
     getUserFormResults,
+    getPreferenceResults,
+    getBrandResults,
+    getBrandResultPerUser,
     getBargainsResultPerUser,
+    getAttributesResultPerUser,
+    getAttributesResults,
+    getRatingPreferenceResults,
+    getRatingPreferenceResultPerUser,
+    getRatingResults,
     getBargainsResultPerStorePerUser,
     getPSFormResultsPerUser,
     getUserFormResultsPerUser,
     getMemoryTaskResultPerUser,
+    getPreferenceResultPerUser,
     getParticipantsCountResult,
     createPSForm,
     createVisualPattern,
