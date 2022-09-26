@@ -782,7 +782,7 @@ const createUserLogTime = (request, response) => {
 const createUserAttributes = (request, response) => {
     const data = request.body
 
-    const query = format('INSERT INTO results_user_attribute (user_id, screen_name, questionID, questionNumber, selectedAnswer, isCorrectAnswer) VALUES %L Returning *', data)
+    const query = format('INSERT INTO results_user_attribute (user_id, screen_name, questionID, questionNumber, selectedAnswer, isCorrectAnswer, supportType) VALUES %L Returning *', data)
 
     // console.log(query)
 
